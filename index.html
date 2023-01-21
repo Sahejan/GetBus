@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GetBus</title>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+<!-- Header -->
+ <nav class="navbar navbar-expand-lg bg-danger">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" width="285" height="55">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">        
+      <ul class="navbar-nav">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html" button type="button" class="btn btn-danger"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        <a href="GetTicket.html" button type="button" class="btn btn-danger"><i class="fa fa-bus" aria-hidden="true"></i> Bus Ticket</a>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-briefcase" aria-hidden="true"></i> Manage Booking
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-ticket" aria-hidden="true"></i> Show My Ticket</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> Change Travel Date</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> Cancle Ticket</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email/SMS</a></li>
+          </ul>
+        </div>
+        
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-user-circle-o" aria-hidden="true"></i> Account
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="LoginForm.html">Sign In</a></li>
+            <li><a class="dropdown-item" href="Singup.html">Sign Up</a></li>
+          </ul>
+        </div>
+        
+        <a href="index.html" button type="button" class="btn btn-danger"><i class="fa fa-question" aria-hidden="true"></i> Help</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Header -->
+
+<div class="container-fluid w-100 h-100 p-0">
+  <img src="getbus.png" class="w-100">
+</div><br>
+
+
+<div class="container">
+<div class="d-flex flex-row bd-highlight m-5">
+  <div class="p-2 bd-highlight">
+    <div class="input-group ">
+      <button type="button" class="btn btn-danger rounded-1">
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </button>
+      <div class="form-outline">
+        <input type="search" id="form1" class="form-control"  placeholder="FROM" />
+      </div>
+    </div>
+  </div>
+  <div class="p-2 bd-highlight">
+    <div class="input-group">
+      <button type="button" class="btn btn-danger rounded-1">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </button>
+      <div class="form-outline">
+        <input type="search" id="form1" class="form-control" placeholder="TO"/>
+        
+      </div>
+    </div>
+  </div>
+  <div class="p-2 bd-highlight">
+    <div class="input-group">
+      <button type="button" class="btn btn-danger rounded-1">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+      </button>
+      <div class="form-outline">
+        <input type="date" id="form1" class="form-control" placeholder="DATE"/>
+  
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <button type="button" class="btn btn-danger rounded-3">
+        <i class="fa fa-bus" aria-hidden="true"></i> Search
+      </button>
+    </div>
+  </div>  
+</div>
+</div>
+
+
+
+
+
+   
+
+
+
+
+
+
+   <!-- Footer -->
+   <footer class="text-center text-white ">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #292828;"
+        href="#Link Here"
+        role="button"
+        ><i class="fab fa-github"></i></a>
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#Link Here"
+          role="button"
+          ><i class="fab fa-facebook-f"></i></a>
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #d62976;"
+          href="#Link Here"
+          role="button"
+          ><i class="fab fa-instagram"></i></a>
+      </section>
+  </footer>
+   <!-- Footer -->
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<!-- #070e1b; -->
+<!-- #343a40 -->
+<!-- height: 480 px width: 640 px -->

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket</title>
+    <link rel="stylesheet" href="style.css">
+    <!--BOOTSTRAP LINK-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="Logo" width="285" height="55">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">        
+            <ul class="navbar-nav">
+              &nbsp;&nbsp;&nbsp;
+              <div class="position-absolute top-10 end-0">
+              <a href="index.html" button type="button" class="btn btn-danger"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="vh-200" style="background-color: #DC3545;">
+        <div class="container py-7 h-100">
+            <div class="col col-xl-15">
+              <div class="card" style="border-radius: 1rem;">
+            
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                     <form>
+
+                         <div class="signup-form bg- ">
+
+                             <div class="Signup-head bg- ">
+                                 <h1>Reserve Your Ticket</h1>
+                             </div>
+
+                             <div class="signup-content2">
+                                 <input type="text" placeholder="From" class="input bg- ">
+                                 <input type="text" placeholder="To" class="input bg- "><br>
+            
+
+                             <label class="text-black" style="margin-left:10px;">Depart</label>
+                             <input type="date" class="tarikh bg-     text- ">
+                             <label class="text-black" style="margin-left:10px;">Return</label>
+                             <input type="date" class="tarikh bg-     text- "><br>
+
+                             <input type="number" class="bg- person" placeholder="Adults">
+                             <input type="number" class="bg- person" placeholder="Children"><br>
+
+                             <label class="text-black travel">Travel Class</label>
+                             <select class="bg-light text-black travel2">
+                                 <option></option>
+                                 <option>First Class/1A</option>
+                                 <option>AC 2tier/2A</option>
+                                 <option>AC 3tier/3A</option>
+                                 <option>Executive class chair car/Economy Class</option>
+                                 <option>AC Chair Car</option>
+                                 <option>Sleeper Class</option>
+                                 <option>Second Class</option>                 
+                             </select>
+
+                             <input type="submit" value="Check Availability" class="submit-btn bg-primary ">
+                         </div>
+                         </div>
+                     </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+        
+        </div>
+    </section>
+ 
+</body>
+</html>
